@@ -1,0 +1,98 @@
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: cluster-viewer-binding
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: cluster-viewer}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: cluster-viewers}
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: platform-operators}
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: security-auditors}
+  - {kind: ServiceAccount, name: anna, namespace: users}
+  - {kind: ServiceAccount, name: petr, namespace: users}
+  - {kind: ServiceAccount, name: olga, namespace: users}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: cluster-operator-binding
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: cluster-operator}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: platform-operators}
+  - {kind: ServiceAccount, name: petr, namespace: users}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: security-auditor-binding
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: security-auditor}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: security-auditors}
+  - {kind: ServiceAccount, name: olga, namespace: users}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: platform-admins-binding
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: ClusterRole, name: cluster-admin}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: platform-admins}
+---
+# ---------- sales ----------
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: developer-binding
+  namespace: sales
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: developer}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: sales-developers}
+  - {kind: ServiceAccount, name: ivan, namespace: users}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: devops-binding
+  namespace: sales
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: devops}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: sales-devops}
+---
+# ---------- housing ----------
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: developer-binding
+  namespace: housing
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: developer}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: housing-developers}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: devops-binding
+  namespace: housing
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: devops}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: housing-devops}
+  - {kind: ServiceAccount, name: maria, namespace: users}
+---
+# ---------- finance ----------
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: developer-binding
+  namespace: finance
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: developer}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: finance-developers}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: devops-binding
+  namespace: finance
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: devops}
+subjects:
+  - {apiGroup: rbac.authorization.k8s.io, kind: Group, name: finance-devops}
