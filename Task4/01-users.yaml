@@ -1,0 +1,40 @@
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: users
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: anna            
+  namespace: users
+  labels: {org/group: cluster-viewers}
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: petr            
+  namespace: users
+  labels: {org/group: platform-operators}
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: olga            
+  namespace: users
+  labels: {org/group: security-auditors}
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: ivan            
+  namespace: users
+  labels: {org/group: sales-developers}
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: maria           
+  namespace: users
+  labels: {org/group: housing-devops}

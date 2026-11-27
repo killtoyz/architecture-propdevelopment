@@ -1,0 +1,568 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8" pages="2">
+  <diagram id="ctx" name="1. Контекст «Умный дом»">
+    <mxGraphModel dx="5985" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ctx_0" />
+        <mxCell id="1" parent="ctx_0" />
+        <object placeholders="1" c4Name="Собственник" c4Type="Person" c4Description="Пользуется мобильным приложением" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="-2200" y="420" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PropDevelopment" c4Type="Software System" c4Description="Description of software system." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-1730" y="495" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="PropDevelopment" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-4">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-1830" y="450" width="420" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Умный дом" c4Type="Software System" c4Description="Управляет домофонами и шлагбаумами, распознаёт лица и номера, проводит видеовызов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-1190" y="500" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Умный дом" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-6">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-1280" y="430" width="420" height="530" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Оборудование" c4Type="Software System" c4Description="Камеры, домофон и т.д." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-1190" y="730" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Читают данные" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-8">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-5" target="S7YPJjx_4a0Oq8HJhLy6-7">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1530" y="820" as="sourcePoint" />
+              <mxPoint x="-1290" y="820" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Сихронизирует" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-10">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-2">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1040" y="830" as="sourcePoint" />
+              <mxPoint x="-1190" y="525" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Гость" c4Type="Person" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-11">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="-760" y="700" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Звонит в домофон" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-12">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-11" target="S7YPJjx_4a0Oq8HJhLy6-7">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1350" y="830" as="sourcePoint" />
+              <mxPoint x="-1110" y="830" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Управляет" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-13">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-1" target="S7YPJjx_4a0Oq8HJhLy6-2">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1490" y="710" as="sourcePoint" />
+              <mxPoint x="-1250" y="710" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Пользуется" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-14">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-1" target="S7YPJjx_4a0Oq8HJhLy6-7">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1990" y="565" as="sourcePoint" />
+              <mxPoint x="-1720" y="565" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Отправляет события" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="S7YPJjx_4a0Oq8HJhLy6-16">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.702;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S7YPJjx_4a0Oq8HJhLy6-5" target="S7YPJjx_4a0Oq8HJhLy6-2">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="-1480" y="535" as="sourcePoint" />
+              <mxPoint x="-1180" y="535" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cnt" name="2. Контейнеры (с изменениями)">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" math="0" shadow="0">
+      <root>
+        <mxCell id="cnt_0" />
+        <mxCell id="1" parent="cnt_0" />
+        <mxCell id="cnt_1" value="&lt;b style=&quot;font-size:20px&quot;&gt;Диаграмма контейнеров PropDevelopment (C4, уровень 2): изменения для сервисов «Умный дом»&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="620" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_2" value="&lt;b&gt;PropDevelopment&lt;/b&gt;&lt;br&gt;[Software System]" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#666666;fontColor=#333333;align=left;verticalAlign=bottom;spacing=10;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="2300" height="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_3" value="Группа сервисов для клиентов" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;strokeColor=#555555;fontColor=#333333;align=right;verticalAlign=top;spacing=10;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="900" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_4" value="Группа сервисов ЖКУ" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;strokeColor=#555555;fontColor=#333333;align=right;verticalAlign=top;spacing=10;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="330" width="770" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_5" value="Платформенные сервисы (новые топики и секреты)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#EAF7EF;strokeColor=#1E9E5A;dashed=1;fontColor=#127A44;align=center;verticalAlign=top;spacing=6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1140" width="770" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_6" value="Интеграционный слой (новый)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#EAF7EF;strokeColor=#1E9E5A;dashed=1;fontColor=#127A44;align=center;verticalAlign=top;spacing=6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="600" width="240" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_7" value="Дата" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;strokeColor=#555555;fontColor=#333333;align=right;verticalAlign=top;spacing=10;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1340" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_8" value="Финансы" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;strokeColor=#555555;fontColor=#333333;align=right;verticalAlign=top;spacing=10;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1480" width="560" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_9" value="&lt;b style=&quot;font-size:13px&quot;&gt;Клиент&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Покупатель недвижимости&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="20" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_10" value="&lt;b style=&quot;font-size:13px&quot;&gt;Собственник / жилец&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Собственник квартиры или член семьи&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="20" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_11" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="745" y="235" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_12" value="Firewall" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="235" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_13" value="&lt;b style=&quot;font-size:13px&quot;&gt;Государственные регистрационные органы&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Регистрационные действия с объектами недвижимости&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_14" value="&lt;b style=&quot;font-size:13px&quot;&gt;Менеджер&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Работает с клиентами и объектами, администрирует онлайн-сделки; менеджер ЖКУ управляет доступом&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_15" value="&lt;b style=&quot;font-size:13px&quot;&gt;Бизнес-аналитик&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Оптимизирует процессы, администрирует системы&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_16" value="&lt;b style=&quot;font-size:13px&quot;&gt;Бухгалтер&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Ведёт бухгалтерский учёт&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1560" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_17" value="&lt;b style=&quot;font-size:13px&quot;&gt;Аналитик BI&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Анализирует данные, готовит отчётность&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="1480" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_18" value="&lt;b style=&quot;font-size:13px&quot;&gt;Гость / курьер&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Person]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Звонит в квартиру через домофон&lt;/div&gt;" style="shape=mxgraph.c4.person2;whiteSpace=wrap;html=1;align=center;metaEdit=1;resizable=0;fontSize=11;fillColor=#6B6477;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="1270" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_19" value="&lt;b style=&quot;font-size:13px&quot;&gt;APNs / FCM&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System, внешняя]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Push и VoIP-push на телефоны жильцов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#1B7F4B;strokeWidth=3;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="500" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_20" value="&lt;b style=&quot;font-size:13px&quot;&gt;Поставщики ресурсов ЖКХ&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Системы управляющих компаний и поставщиков&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="650" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_21" value="&lt;b style=&quot;font-size:13px&quot;&gt;Платёжная система&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Провайдер онлайн-платежей&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="780" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_22" value="&lt;b style=&quot;font-size:13px&quot;&gt;Платформа «Умный дом» партнёра&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System, внешняя]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;API управления доступом, webhooks событий, медиасервер видеовызовов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#1B7F4B;strokeWidth=3;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="900" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_23" value="&lt;b style=&quot;font-size:13px&quot;&gt;Оборудование в ЖК&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Внешние устройства]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Видеодомофоны и шлагбаумы с камерами распознавания&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#1B7F4B;strokeWidth=3;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="1110" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_24" value="&lt;b style=&quot;font-size:13px&quot;&gt;ЕБС&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Software System, внешняя]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Единая биометрическая система (572-ФЗ)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#8C8496;strokeColor=#1B7F4B;strokeWidth=3;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="900" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_25" value="&lt;b style=&quot;font-size:13px&quot;&gt;Витрина продаж&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: JavaScript, React]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Подбор и бронирование объектов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_26" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-mart-estate-app&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Данные об объектах недвижимости&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_27" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-mart-app&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Объекты и онлайн-сделки&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_28" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-tour-app&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Онлайн-тур&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="930" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_29" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-mart-estate-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Объекты недвижимости&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="390" y="680" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_30" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-mart-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Объекты и сделки&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="680" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_31" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-tour-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Данные онлайн-тура&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="930" y="680" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_32" value="&lt;b style=&quot;font-size:13px&quot;&gt;client-crm-app&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Spring Boot, ElasticSearch, Dynamics CRM]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Клиентские данные&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="860" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_33" value="&lt;b style=&quot;font-size:13px&quot;&gt;crm-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: MSSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;БД CRM клиентов&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1020" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_34" value="&lt;b style=&quot;font-size:13px&quot;&gt;auth-service-1&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Keycloak]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; + клиент для приложения собственников (OIDC + PKCE), step-up и MFA для открытия и биометрии&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_35" value="&lt;b style=&quot;font-size:13px&quot;&gt;auth-db-1&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;БД сервиса аутентификации&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="680" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_36" value="&lt;b style=&quot;font-size:13px&quot;&gt;Active Directory&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: MS Active Directory]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Аутентификация менеджеров и бизнес-аналитиков&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1180" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_37" value="&lt;b style=&quot;font-size:13px&quot;&gt;Витрина сервисов для собственников&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Mobile app iOS, Android]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; экраны домофона и шлагбаума, видеовызов (WebRTC), гостевые пропуска, номера авто, согласие на биометрию&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="360" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_38" value="&lt;b style=&quot;font-size:13px&quot;&gt;API Gateway&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: API Gateway, WAF]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новый.&lt;/b&gt; Единая точка входа приложения: проверка токенов, лимиты, WAF&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="500" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_39" value="&lt;b style=&quot;font-size:13px&quot;&gt;notification-service&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новый.&lt;/b&gt; Push и VoIP-push о вызовах и событиях&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="980" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_40" value="&lt;b style=&quot;font-size:13px&quot;&gt;CRM&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; публикует смену собственника и состава семьи; экран менеджера для подключения домов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="650" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_41" value="&lt;b style=&quot;font-size:13px&quot;&gt;tenant-core-app&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; внешние вызовы переведены через шлюз интеграций&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="650" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_42" value="&lt;b style=&quot;font-size:13px&quot;&gt;crm-tenant-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;БД CRM собственников&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="810" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_43" value="&lt;b style=&quot;font-size:13px&quot;&gt;tenant-core-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Услуги ЖКХ по собственникам&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="810" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_44" value="&lt;b style=&quot;font-size:13px&quot;&gt;smarthome-access-service&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Kotlin, Spring Boot]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новый.&lt;/b&gt; Права доступа, пропуска, номера авто, согласия; команды открытия; приём событий партнёра. Биометрию не хранит&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="980" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_45" value="&lt;b style=&quot;font-size:13px&quot;&gt;smarthome-db&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новая.&lt;/b&gt; Права, номера авто, пропуска, согласия, журнал, ID партнёра&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="980" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_46" value="&lt;b style=&quot;font-size:13px&quot;&gt;Шина событий&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Apache Kafka]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; показана явно; новые топики tenant.ownership-changed, smarthome.access-events&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1170" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_47" value="&lt;b style=&quot;font-size:13px&quot;&gt;Хранилище секретов&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: HashiCorp Vault]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новый.&lt;/b&gt; Ключи, сертификаты mTLS, ротация&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="1170" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_48" value="&lt;b style=&quot;font-size:13px&quot;&gt;Шлюз внешних интеграций&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: API Gateway (ingress/egress)]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Новый.&lt;/b&gt; Единственная точка обмена с внешними системами: mTLS, OAuth 2.0, проверка подписи webhooks, валидация схем, лимиты, журнал в SIEM&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#1E9E5A;strokeColor=#127A44;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="640" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_49" value="&lt;b style=&quot;font-size:13px&quot;&gt;Хранилище данных&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: Greenplum]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;&lt;b&gt;Изм.:&lt;/b&gt; из «Умного дома» получает только обезличенные события, без CDC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#E6892A;strokeColor=#B5651D;strokeWidth=2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1380" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_50" value="&lt;b style=&quot;font-size:13px&quot;&gt;DWH Хранилище&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: S3]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Физическое хранилище DWH&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1570" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_51" value="&lt;b style=&quot;font-size:13px&quot;&gt;accountant-service-1&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container (по исходной диаграмме: Keycloak)]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Система бухгалтерского учёта&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1540" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_52" value="&lt;b style=&quot;font-size:13px&quot;&gt;auth-db-1&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;По исходной диаграмме&lt;/div&gt;" style="shape=cylinder3;size=12;boundedLbl=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1730" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_53" value="&lt;b style=&quot;font-size:13px&quot;&gt;Active Directory&lt;/b&gt;&lt;div style=&quot;font-size:10px&quot;&gt;[Container: MS Active Directory]&lt;/div&gt;&lt;div style=&quot;font-size:10px;margin-top:4px&quot;&gt;Каталог финансового домена&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=8;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1730" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_54" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_9" target="cnt_25">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_55" value="Данные по объектам [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.4000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_25" target="cnt_26">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_56" value="[REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_25" target="cnt_27">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_57" value="[REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.9000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_25" target="cnt_28">
+          <mxGeometry x="0.4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="490" />
+              <mxPoint x="1040" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_58" value="Регистрация, карточка, профиль клиента [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.8000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_25" target="cnt_32">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="440" />
+              <mxPoint x="635" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_59" value="Регистрация, аутентификация [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.3000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3182;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_25" target="cnt_34">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_60" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_26" target="cnt_29">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_61" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_27" target="cnt_30">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_62" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_28" target="cnt_31">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_63" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;startArrow=blockThin;startFill=1;exitX=1.0000;exitY=0.4500;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.4500;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_27" target="cnt_28">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_64" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_32" target="cnt_33">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_65" value="Каталог объектов → client-mart-app, client-tour-app [Kafka]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.3000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.7500;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_32" target="cnt_28">
+          <mxGeometry x="-0.55" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="890" />
+              <mxPoint x="1200" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_66" value="СМЭВ [SOAP]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.1000;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_27" target="cnt_13">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="682" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_67" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_34" target="cnt_35">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_68" value="Аутентификация менеджеров" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.8500;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_32" target="cnt_36">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="945" />
+              <mxPoint x="1240" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_69" value="Передача сырых данных [CDC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.2727;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3462;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_29" target="cnt_49">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1200" />
+              <mxPoint x="1150" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_70" value="Сырые данные [CDC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.6000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5769;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_30" target="cnt_49">
+          <mxGeometry x="0.45" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="740" />
+              <mxPoint x="905" y="1170" />
+              <mxPoint x="1210" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_71" value="Сырые данные [CDC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1154;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_33" target="cnt_49">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1250" />
+              <mxPoint x="1090" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_72" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_49" target="cnt_50">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_73" value="Аутентификация бизнес-аналитика" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.9000;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_49" target="cnt_36">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1294" y="1330" />
+              <mxPoint x="1410" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_74" value="Анализ данных" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.3125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8846;entryY=1.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_17" target="cnt_49">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_75" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.3253;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_14" target="cnt_2">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_76" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.4699;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_15" target="cnt_2">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_77" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.1875;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_16" target="cnt_51">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_78" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_51" target="cnt_52">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_79" value="Аутентификация" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_51" target="cnt_53">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_80" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_10" target="cnt_37">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_81" value="Вход собственника [OIDC Authorization Code + PKCE]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7273;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_37" target="cnt_34">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_82" value="[HTTPS, JWT]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_37" target="cnt_38">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_83" value="Ключи проверки токенов [JWKS]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.6667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.4000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_38" target="cnt_34">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_84" value="[REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.2000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_38" target="cnt_40">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880" y="625" />
+              <mxPoint x="1710" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_85" value="[REST, WS]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.8000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_38" target="cnt_41">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="625" />
+              <mxPoint x="2180" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_86" value="Права, пропуска, номера, команды открытия, сессия вызова [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_38" target="cnt_44">
+          <mxGeometry x="0.45" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_87" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_40" target="cnt_42">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_88" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_41" target="cnt_43">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_89" value="Получение клиентских данных [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_41" target="cnt_40">
+          <mxGeometry x="0.45" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_90" value="Смена собственника, состав семьи [Kafka]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.8000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.3333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_40" target="cnt_46">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1595" y="730" />
+              <mxPoint x="1595" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_91" value="Аутентификация менеджеров" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.3000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.3000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_40" target="cnt_36">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="680" />
+              <mxPoint x="1540" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_92" value="Сырые данные [CDC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.6000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.4000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_42" target="cnt_49">
+          <mxGeometry x="0.6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="870" />
+              <mxPoint x="1560" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_93" value="Сырые данные [CDC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#555555;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.2273;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.6000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_43" target="cnt_49">
+          <mxGeometry x="0.75" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2120" y="950" />
+              <mxPoint x="1580" y="950" />
+              <mxPoint x="1580" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_94" value="Обезличенные события доступа [Kafka]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.2093;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.8000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_46" target="cnt_49">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_95" value="[JDBC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_44" target="cnt_45">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_96" value="" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_44" target="cnt_39">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_97" value="Push" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.8125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_39" target="cnt_48">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_98" value="Публикует события / читает смену собственника [Kafka]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;startArrow=blockThin;startFill=1;exitX=0.3000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6744;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_44" target="cnt_46">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_99" value="Синхронизация прав, команды / события партнёра [REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;startArrow=blockThin;startFill=1;exitX=0.8500;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.9583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_44" target="cnt_48">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_100" value="[REST]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.1250;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_41" target="cnt_48">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_101" value="Секреты, сертификаты" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_48" target="cnt_47">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2480" y="1215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_102" value="Push [HTTPS/2]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_48" target="cnt_19">
+          <mxGeometry x="0.4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2480" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_103" value="[REST, mTLS]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.1146;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_48" target="cnt_20">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_104" value="[REST, mTLS]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.3750;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_48" target="cnt_21">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_105" value="Команды, синхронизация → / ← webhooks [HTTPS, mTLS, OAuth 2.0, HMAC]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;startArrow=blockThin;startFill=1;exitX=1.0000;exitY=0.6771;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_48" target="cnt_22">
+          <mxGeometry x="0.0" relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-28" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_106" value="Push, VoIP-push о вызове" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.7000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_19" target="cnt_37">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2830" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_107" value="Видеовызов [WebRTC, DTLS-SRTP, разовый токен]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;dashed=1;exitX=1.0000;exitY=0.2500;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.2308;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_37" target="cnt_22">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3010" y="385" />
+              <mxPoint x="3010" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_108" value="[MQTT/TLS, SIP-TLS]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_22" target="cnt_23">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_109" value="Сверка лица [ЕБС]" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.6923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.6923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_22" target="cnt_24">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_110" value="Проход по лицу, въезд по номеру авто" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_10" target="cnt_23">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3340" y="100" />
+              <mxPoint x="3340" y="1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnt_111" value="Звонок в квартиру" style="edgeStyle=none;rounded=0;html=1;jumpStyle=arc;jumpSize=10;endArrow=blockThin;endFill=1;strokeColor=#127A44;strokeWidth=1.3;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;whiteSpace=wrap;exitX=0.5000;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cnt_18" target="cnt_23">
+          <mxGeometry x="0.0" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_112" value="&lt;b&gt;Обозначения&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color:#0E7DAD&quot;&gt;■&lt;/span&gt; голубой — без изменений&lt;br&gt;&lt;span style=&quot;color:#1E9E5A&quot;&gt;■&lt;/span&gt; зелёный — новый контейнер&lt;br&gt;&lt;span style=&quot;color:#E6892A&quot;&gt;■&lt;/span&gt; оранжевый — изменённый контейнер&lt;br&gt;серый с зелёной рамкой — новая внешняя система&lt;br&gt;зелёная стрелка — новая или изменённая связь; пунктир — медиапоток" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="1700" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cnt_113" value="&lt;b&gt;Принципы&lt;/b&gt;&lt;br&gt;1. Партнёр не обращается к CRM и БД PropDevelopment: только к шлюзу, только к smarthome-access-service.&lt;br&gt;2. PropDevelopment — источник истины о правах доступа; партнёр лишь исполняет переданные права.&lt;br&gt;3. Биометрия не хранится у PropDevelopment и не попадает в хранилище данных.&lt;br&gt;4. Видео идёт напрямую телефон ↔ платформа партнёра по разовому токену." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1700" width="600" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
